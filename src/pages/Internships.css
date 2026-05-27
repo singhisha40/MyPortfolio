@@ -1,0 +1,131 @@
+.internships-page {
+  padding: 60px 8%;
+  background: #10002b;
+  color: white;
+}
+
+.internships-header {
+  margin-bottom: 40px;
+}
+
+.internships-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.internships-header p {
+  max-width: 750px;
+  color: #cdb4db;
+  line-height: 1.7;
+}
+
+.internships-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.internship-card {
+  background: #240046;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.internship-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(157, 78, 221, 0.3);
+}
+
+.internship-image-container {
+  height: 180px;
+  overflow: hidden;
+}
+
+.internship-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+}
+
+.internship-card:hover img {
+  transform: scale(1.08);
+}
+
+.internship-content {
+  padding: 20px;
+}
+
+.internship-content h2 {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+}
+
+.internship-content h3 {
+  font-size: 1rem;
+  color: #e0aaff;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.duration {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: #cdb4db;
+}
+
+.internship-content p {
+  color: #d9d9d9;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-stack span {
+  background: rgba(157, 78, 221, 0.2);
+  color: #e0aaff;
+  padding: 7px 12px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .internships-page {
+    padding: 40px 5%;
+  }
+
+  .internships-header h1 {
+    font-size: 2rem;
+  }
+
+  .internships-header p {
+    font-size: 0.95rem;
+  }
+
+  .internship-image-container {
+    height: 160px;
+  }
+
+  .internship-content {
+    padding: 18px;
+  }
+
+  .internship-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .internship-content p {
+    font-size: 0.9rem;
+  }
+}
