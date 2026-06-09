@@ -1,8 +1,9 @@
 # Isha Singh — Portfolio
 
-[![Live](https://img.shields.io/badge/Live-ishasingh.vercel.app-c8b89a?style=flat-square)](https://ishasingh.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ishasingh-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/ishasingh)
-[![GitHub](https://img.shields.io/badge/GitHub-ishasingh-333?style=flat-square&logo=github)](https://github.com/ishasingh)
+
+### Checkout Live Demo:
+[![Live](https://img.shields.io/badge/Live-ishasingh.vercel.app-c8b89a?style=flat-square)](https://ishasinghportfolio.vercel.app/)
+
 
 Personal portfolio showcasing my projects, skills, and background as a Computer Science undergrad with hands-on experience in full-stack development and data structures & algorithms.
 
@@ -64,6 +65,8 @@ Custom scroll animations, CSS Modules for scoped styling, and a fully responsive
 
 ### Reach me out for collaborations.
 
----
+- 📬 ishaknp16@gmail.com
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ishasingh-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/ishasingh)
+[![GitHub](https://img.shields.io/badge/GitHub-ishasingh-333?style=flat-square&logo=github)](https://github.com/singhisha40)
 
-> 📄 [Download Resume](links)
+
