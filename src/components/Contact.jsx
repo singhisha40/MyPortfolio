@@ -18,7 +18,7 @@ export default function Contact() {
       <div className={`${styles.inner} fade-in`} ref={ref}>
         <div className={styles.left}>
           <p className={styles.big}>Let's work<br />together.</p>
-          <p className={styles.sub}>I'm actively looking for internship opportunities. If you're building something interesting or just want to talk code, reach out.</p>
+          <p className={styles.sub}>I'm actively looking for de opportunities. If you're building something interesting or just want to talk code, reach out.</p>
         </div>
         <div className={styles.linkList}>
           {links.map((l) => (
