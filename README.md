@@ -66,7 +66,7 @@ Custom scroll animations, CSS Modules for scoped styling, and a fully responsive
 ### Reach me out for collaborations.
 
 - 📬 ishaknp16@gmail.com
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ishasingh-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/ishasingh)
-[![GitHub](https://img.shields.io/badge/GitHub-ishasingh-333?style=flat-square&logo=github)](https://github.com/singhisha40)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-ishasingh-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/ishasingh)
+- [![GitHub](https://img.shields.io/badge/GitHub-ishasingh-333?style=flat-square&logo=github)](https://github.com/singhisha40)
 
 
