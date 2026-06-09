@@ -1,0 +1,146 @@
+.hero {
+  padding: 5rem 3rem;
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  min-height: 88vh;
+}
+
+/* ── Left: Photo ── */
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgWrap {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  position: relative;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  filter: grayscale(15%);
+  transition: filter 0.4s;
+}
+
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 1.8;
+  text-transform: uppercase;
+  border: 1px dashed var(--border);
+}
+
+/* ── Right: Text ── */
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.tag {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.2rem;
+}
+
+.name {
+  font-family: var(--serif);
+  font-size: clamp(3rem, 5.5vw, 5rem);
+  line-height: 1.0;
+  color: var(--white);
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 1.8rem;
+}
+
+.name span {
+  /* "I'm Isha." — same italic serif, no style change */
+}
+
+.desc {
+  color: var(--muted);
+  line-height: 1.9;
+  font-size: 13px;
+  margin-bottom: 1.8rem;
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 11px;
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #4ade80;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+  flex-shrink: 0;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.35; }
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--border);
+  padding: 0.7rem 1.4rem;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: border-color 0.2s, color 0.2s;
+  font-family: var(--mono);
+  align-self: flex-start;
+}
+.cta:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 3rem 1.5rem;
+    gap: 2.5rem;
+    min-height: unset;
+  }
+  .imgWrap {
+    max-width: 280px;
+    aspect-ratio: 1 / 1;
+    border-radius: 0;
+  }
+  .left { justify-content: flex-start; }
+}

@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.cat {
+  padding: 1.5rem 0;
+  border-right: 1px solid var(--border);
+}
+.cat:last-child { border-right: none; }
+.cat:not(:first-child) { padding-left: 2rem; }
+
+.catTitle {
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .grid { grid-template-columns: 1fr; }
+  .cat { border-right: none; border-bottom: 1px solid var(--border); padding: 1.5rem 0; }
+  .cat:not(:first-child) { padding-left: 0; }
+  .cat:last-child { border-bottom: none; }
+}

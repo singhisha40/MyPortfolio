@@ -1,0 +1,79 @@
+/* ── Reset ── */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* ── Design Tokens ── */
+:root {
+  --black:   #0a0a0a;
+  --white:   #f5f3ee;
+  --accent:  #c8b89a;
+  --muted:   #6b6b6b;
+  --border:  #1f1f1f;
+  --serif:   'Instrument Serif', serif;
+  --mono:    'DM Mono', monospace;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--mono);
+  font-size: 13px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Fade-in animation ── */
+.fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Shared section styles ── */
+section {
+  padding: 4rem 3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.sec-label {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.sec-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* ── Tag pill (shared) ── */
+.tag {
+  border: 1px solid var(--border);
+  padding: 0.35rem 0.7rem;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  transition: border-color 0.2s, color 0.2s;
+  cursor: default;
+  font-family: var(--mono);
+}
+.tag:hover {
+  border-color: var(--accent);
+  color: var(--white);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  section { padding: 3rem 1.5rem; }
+}
