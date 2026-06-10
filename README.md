@@ -24,7 +24,7 @@ I'm a passionate coder with a strong foundation in the **MERN stack** (MongoDB, 
 ### HavenStay
 A Full-Stack rental booking platform featuring secure login/signup, CRUD operations for listings and reviews, and role-based access control.
 `Node.js` `Express.js` `MongoDB` `EJS` `Passport.js`
-→ [GitHub](link) · [Live Demo](link)
+→ [GitHub](link) · [Live Demo]([link](https://havenstay-8lo1.onrender.com))
 
 ### BataoGPT
 A Full-Stack AI chatbot application inspired by ChatGPT with real-time conversational workflows, persistent chat history, and structured backend integration using OpenRouter APIs.
