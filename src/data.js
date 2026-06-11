@@ -50,7 +50,7 @@ export const projects = [
     title: 'StockCheck',
     desc: 'A Full-Stack trading platform with portfolio tracking, holdings management, and order processing functionalities through interactive dashboard workflows.',
     stack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Material UI', 'Chart.js'],
-    github: 'link',
+    github: 'https://github.com/singhisha40/StockCheck',
     live: 'link',
   },
   {
@@ -58,7 +58,7 @@ export const projects = [
     title: 'ReachOut',
     desc: 'An Ongoing Full-Stack Video Calling Platform Project to reach out your friends anytime, anywhere!',
     stack: ['React', 'Node.js', 'Express.js', 'MongoDB',],
-    github: 'link',
+    github: 'https://github.com/singhisha40/ReachOut',
     live: 'link',
   },
 ]
