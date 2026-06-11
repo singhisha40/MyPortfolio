@@ -42,8 +42,8 @@ export const projects = [
     title: 'BataoGPT',
     desc: 'A Full-Stack AI chatbot application inspired by ChatGPT with real-time conversational workflows, persistent chat history, and structured backend integration using OpenRouter APIs.',
     stack: ['React', 'Node.js', 'Express.js','MongoDB',' OpenRouter API', 'Vite'],
-    github: 'link',
-    live: 'link',
+    github: 'https://github.com/singhisha40/GPT-Project',
+    live: 'https://gpt-project-green.vercel.app/',
   },
   {
     num: '03',
