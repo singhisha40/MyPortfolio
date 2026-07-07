@@ -1,7 +1,7 @@
 export const personal = {
   name: 'Isha Singh',
   initials: 'IS',
-  tagline: 'CS undergrad. Currently building things with MERN stack.',
+  tagline: 'CS Grad. Currently building things with MERN stack.',
   bio: "I'm a passionate coder, who gets all happy when her code passes all test cases. I've previously interned in organisations like Bhabha Atomic Research Center(BARC), Indian Oil Corporation Limited(IOCL). When I'm not coding, you'll probably find me enjoying music.",
   degree: 'B.Tech Computer Science, NIT Arunachal Pradesh',
   focus: 'MERN Stack · DSA',
