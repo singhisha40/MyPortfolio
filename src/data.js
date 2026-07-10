@@ -2,7 +2,7 @@ export const personal = {
   name: 'Isha Singh',
   initials: 'IS',
   tagline: 'CSE Grad. Currently building things with MERN stack.',
-  bio: "Full-stack developer specializing in the MERN stack (MongoDB, Express, React, Node.js), with hands-on experience in REST API design, authentication, and containerized deployment workflows using Docker and CI/CD. Previously interned at Bhabha Atomic Research Centre (BARC) and Indian Oil Corporation Limited (IOCL), working on machine learning models. Outside of code, I enjoy music.",
+  bio: "Full-stack developer specializing in the MERN stack (MongoDB, Express, React, Node.js), with hands-on experience in REST API design, authentication, and containerized deployment workflows using Docker and CI/CD. Previously interned at Bhabha Atomic Research Centre (BARC) and Indian Oil Corporation Limited (IOCL), working on machine learning models. I enjoy learning new tools, adapting quickly to unfamiliar challenges, and improving through hands-on projects. Apart from coding, I love reading books and yoga.",
   degree: 'B.Tech Computer Science, NIT Arunachal Pradesh',
   focus: 'MERN Stack · DSA',
   status: 'Open to development opportunities',
