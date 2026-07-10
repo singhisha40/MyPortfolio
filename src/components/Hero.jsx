@@ -36,7 +36,7 @@ export default function Hero() {
           <span>I'm Isha.</span>
         </h1>
         <p className={styles.desc}>
-          CS undergrad. I build things with the MERN stack.<br />
+          CSE Grad. I build things with the MERN stack.<br />
           I spend weekends arguing with data structures.
         </p>
         <div className={styles.status}>
