@@ -32,7 +32,7 @@ export const projects = [
   {
     num: '01',
     title: 'HavenStay',
-    desc: 'A Full-Stack rental booking platform featuring secure login/signup, CRUD operations for listings and reviews, and role-based access control.',
+    desc: 'A Full-Stack rental booking platform inspired by Airbnb, featuring secure user authentication, property listing management, review and rating functionality, and role-based access control. Built with RESTful architecture, Passport.js session authentication, server-side rendering using EJS, and MongoDB for scalable data persistence.',
     stack: [ 'Node.js', 'Express.js','MongoDB','EJS','Passport.js'],
     github: 'https://github.com/singhisha40/HavenStay',
     live: 'https://havenstay-8lo1.onrender.com/',
