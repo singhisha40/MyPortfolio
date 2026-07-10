@@ -1,8 +1,8 @@
 export const personal = {
   name: 'Isha Singh',
   initials: 'IS',
-  tagline: 'CS Grad. Currently building things with MERN stack.',
-  bio: "I'm a passionate coder, who gets all happy when her code passes all test cases. I've previously interned in organisations like Bhabha Atomic Research Center(BARC), Indian Oil Corporation Limited(IOCL). When I'm not coding, you'll probably find me enjoying music.",
+  tagline: 'CSE Grad. Currently building things with MERN stack.',
+  bio: "Full-stack developer specializing in the MERN stack (MongoDB, Express, React, Node.js), with hands-on experience in REST API design, authentication, and containerized deployment workflows using Docker and CI/CD. Previously interned at Bhabha Atomic Research Centre (BARC) and Indian Oil Corporation Limited (IOCL), working on machine learning models. Outside of code, I enjoy music.",
   degree: 'B.Tech Computer Science, NIT Arunachal Pradesh',
   focus: 'MERN Stack · DSA',
   status: 'Open to development opportunities',
@@ -15,8 +15,8 @@ export const personal = {
 
 export const skills = [
   {
-    category: 'Languages',
-    items: ['JavaScript', 'C/C++','SQL'],
+    category: 'Languages and Tools',
+    items: ['JavaScript', 'C/C++','SQL', 'Docker', 'CI/CD(Github Actions)'],
   },
   {
     category: 'Frontend · Backend',
@@ -40,8 +40,8 @@ export const projects = [
   {
     num: '02',
     title: 'BataoGPT',
-    desc: 'A Full-Stack AI chatbot application inspired by ChatGPT with real-time conversational workflows, persistent chat history, and structured backend integration using OpenRouter APIs.',
-    stack: ['React', 'Node.js', 'Express.js','MongoDB',' OpenRouter API', 'Vite'],
+    desc: 'A Full-Stack AI chatbot application inspired by ChatGPT with real-time conversational workflows, persistent chat history, and structured backend integration using OpenRouter APIs. Containerized it using Docker (multi-stage builds for frontend/backend) and automated image builds and deployment to Docker Hub via a GitHub Actions CI/CD pipeline.',
+    stack: ['React', 'Node.js', 'Express.js','MongoDB',' OpenRouter API', 'Vite', 'Docker'],
     github: 'https://github.com/singhisha40/GPT-Project',
     live: 'https://gpt-project-green.vercel.app/',
   },
